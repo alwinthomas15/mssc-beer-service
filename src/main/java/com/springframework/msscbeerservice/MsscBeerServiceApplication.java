@@ -10,4 +10,5 @@ public class MsscBeerServiceApplication {
         SpringApplication.run(MsscBeerServiceApplication.class, args);
     }
 
+
 }
