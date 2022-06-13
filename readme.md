@@ -2,5 +2,8 @@
 #Beer Service
 Spring Boot Microservice project
 
+Port Mappings - For Single Host
 
-(Testing default branche change)
+1. Brewery Beer Service           - 8080
+2. Brewery Beer Order Service     - 8081
+3. Brewery Beer Inventory Service - 8082
