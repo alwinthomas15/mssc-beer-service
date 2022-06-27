@@ -57,7 +57,7 @@ public class BeerController {
             showInventoryOnHand = false;
         }
 
-        return new ResponseEntity<>(beerService.getById(beerId), HttpStatus.OK);
+        return new ResponseEntity<>(beerService.getById(beerId, showInventoryOnHand), HttpStatus.OK);
     }
 
     @GetMapping("beerUpc/{upc}")
